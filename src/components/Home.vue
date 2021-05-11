@@ -10,22 +10,26 @@
         <div
           class="uk-flex uk-flex-right@m uk-flex-middle uk-margin-medium-top uk-margin-remove-top@m"
         >
-          <img
-            class="water-image"
-            data-src="https://via.placeholder.com/600/FF0000"
-            uk-img
-          />
+          <img class="water-image" src="../assets/water.jpg" uk-img />
         </div>
       </div>
       <div class="uk-position-absolute home-navbar">
         <ul class="uk-navbar-nav">
           <li>
-            <a href="#">Active</a>
+            <a href="#">CV</a>
           </li>
           <li>
-            <a href="#">Parent</a>
+            <a href="#aboutme">About Me</a>
           </li>
-          <li><a href="#">Item</a></li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
     </div>

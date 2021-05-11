@@ -1,5 +1,5 @@
 <template>
-  <div class="uk-container section">
+  <div class="uk-container section" id="portfolio">
     <div class="double-title-wrapper">
       <h1 class="uk-text-lighter double-title-shadow">Portfolio</h1>
       <h1 class="uk-text-lighter double-title-principal">Portfolio</h1>

@@ -1,12 +1,14 @@
 <template>
-  <div class="uk-container section">
+  <div class="uk-container section" id="skills">
     <div class="double-title-wrapper">
       <h1 class="uk-text-lighter double-title-shadow">Skills</h1>
       <h1 class="uk-text-lighter double-title-principal">Skills</h1>
     </div>
     <div class="uk-child-width-expand@s uk-margin-large-top" uk-grid>
       <div>
-        <h4>Disc</h4>
+        <h4>
+          <span class="uk-margin-small-right" uk-icon="code"></span>Programming
+        </h4>
         <ul class="uk-list uk-list-disc">
           <li>List item 1</li>
           <li>List item 2</li>
@@ -15,7 +17,9 @@
       </div>
 
       <div>
-        <h4>Circle</h4>
+        <h4>
+          <span class="uk-margin-small-right" uk-icon="image"></span>Design
+        </h4>
         <ul class="uk-list uk-list-circle">
           <li>List item 1</li>
           <li>List item 2</li>
@@ -24,7 +28,10 @@
       </div>
 
       <div>
-        <h4>Square</h4>
+        <h4>
+          <span class="uk-margin-small-right" uk-icon="commenting"></span
+          >Languages
+        </h4>
         <ul class="uk-list uk-list-circle">
           <li>List item 1</li>
           <li>List item 2</li>

@@ -1,5 +1,5 @@
 <template>
-  <div class="uk-container section">
+  <div class="uk-container section" id="aboutme">
     <div class="uk-grid-small uk-child-width-expand@s" uk-grid>
       <div>
         <div class="double-title-wrapper">
