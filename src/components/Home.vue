@@ -7,7 +7,9 @@
         <div class="uk-flex uk-flex-middle">
           <h1 class="uk-text-lighter title">Hi, I'm Manuel<br />Gutierrez</h1>
         </div>
-        <div class="uk-flex uk-flex-center@m uk-flex-middle">
+        <div
+          class="uk-flex uk-flex-right@m uk-flex-middle uk-margin-medium-top uk-margin-remove-top@m"
+        >
           <img
             class="water-image"
             data-src="https://via.placeholder.com/600/FF0000"
@@ -15,7 +17,17 @@
           />
         </div>
       </div>
-      <div class="home-navbar uk-position-absolute">Navbar</div>
+      <div class="uk-position-absolute home-navbar">
+        <ul class="uk-navbar-nav">
+          <li>
+            <a href="#">Active</a>
+          </li>
+          <li>
+            <a href="#">Parent</a>
+          </li>
+          <li><a href="#">Item</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -59,6 +71,8 @@ export default {
 }
 
 .home-navbar {
-  bottom: 10px;
+  transform: translate(-50%, 0%);
+  bottom: 2px;
+  left: 50%;
 }
 </style>
