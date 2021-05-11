@@ -4,6 +4,7 @@
   <Skills />
   <Portfolio />
   <Contact />
+  <Footer />
 </template>
 
 <script>
@@ -14,6 +15,7 @@ import AboutMe from "./components/AboutMe.vue";
 import Skills from "./components/Skills.vue";
 import Portfolio from "./components/Portfolio.vue";
 import Contact from "./components/Contact.vue";
+import Footer from "./components/Footer.vue";
 
 UIkit.use(Icons);
 
@@ -25,6 +27,7 @@ export default {
     Skills,
     Portfolio,
     Contact,
+    Footer,
   },
 };
 </script>
