@@ -16,9 +16,6 @@
       <div class="uk-position-absolute home-navbar">
         <ul class="uk-navbar-nav">
           <li>
-            <a href="#">CV</a>
-          </li>
-          <li>
             <a href="#aboutme">About Me</a>
           </li>
           <li>
@@ -29,6 +26,9 @@
           </li>
           <li>
             <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="#">Download CV</a>
           </li>
         </ul>
       </div>
