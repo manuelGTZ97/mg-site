@@ -8,14 +8,9 @@
         </div>
         <div class="uk-margin-large-top">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta
-            vehicula massa in tincidunt. Morbi viverra pharetra pharetra. Cras
-            iaculis ullamcorper varius.
-          </p>
-          <p>
-            Nullam magna nunc, malesuada at scelerisque a, feugiat a nunc.
-            Integer finibus fermentum elementum. Quisque ex eros, iaculis nec
-            molestie eu, suscipit eu leo.
+            I am a full-stack developer focus on web development and design.
+            Innovation is the key to find success, thus I have learned how to
+            improve my development and design knowledge and techniques.
           </p>
         </div>
       </div>
