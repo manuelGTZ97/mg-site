@@ -10,7 +10,7 @@
           <p>
             I am a full-stack developer focus on web development and design.
             Innovation is the key to find success, thus I have learned how to
-            improve my development and design knowledge and techniques.
+            improve my programming and design knowledge and techniques.
           </p>
         </div>
       </div>

@@ -5,7 +5,7 @@
     >
       <div class="uk-grid-small uk-child-width-expand@s" uk-grid>
         <div class="uk-flex uk-flex-middle">
-          <h1 class="uk-text-lighter title">Hi, I'm Manuel<br />Gutierrez</h1>
+          <h1 class="uk-text-lighter title">Hi, I'm Manuel<br />Gutiérrez</h1>
         </div>
         <div
           class="uk-flex uk-flex-right@m uk-flex-middle uk-margin-medium-top uk-margin-remove-top@m"

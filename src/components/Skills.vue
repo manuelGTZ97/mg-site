@@ -9,10 +9,13 @@
         <h4>
           <span class="uk-margin-small-right" uk-icon="code"></span>Programming
         </h4>
-        <ul class="uk-list uk-list-disc">
-          <li>List item 1</li>
-          <li>List item 2</li>
-          <li>List item 3</li>
+        <ul class="uk-list uk-list-circle list-two-columns">
+          <li>Js</li>
+          <li>C#</li>
+          <li>Html</li>
+          <li>Css</li>
+          <li>Java</li>
+          <li>Php</li>
         </ul>
       </div>
 
@@ -21,9 +24,9 @@
           <span class="uk-margin-small-right" uk-icon="image"></span>Design
         </h4>
         <ul class="uk-list uk-list-circle">
-          <li>List item 1</li>
-          <li>List item 2</li>
-          <li>List item 3</li>
+          <li>Adobe Xd</li>
+          <li>Sketch</li>
+          <li>Photoshop</li>
         </ul>
       </div>
 
@@ -33,9 +36,7 @@
           >Languages
         </h4>
         <ul class="uk-list uk-list-circle">
-          <li>List item 1</li>
-          <li>List item 2</li>
-          <li>List item 3</li>
+          <li>English</li>
         </ul>
       </div>
     </div>
@@ -66,5 +67,9 @@ export default {
   position: absolute;
   margin: 0;
   bottom: 1px;
+}
+
+.list-two-columns {
+  columns: 2;
 }
 </style>

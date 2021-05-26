@@ -5,48 +5,16 @@
       <h1 class="uk-text-lighter double-title-principal">Portfolio</h1>
     </div>
     <div class="uk-child-width-1-3@s uk-grid-match uk-margin-large-top" uk-grid>
-      <div>
+      <div v-for="item in portfolio" :key="item.id">
         <div class="uk-card ">
           <div class="uk-card-media-top">
-            <img src="https://via.placeholder.com/400x200/FF0000" alt="" />
+            <img :src="item.thumbnail" alt="" />
           </div>
-          <div>
-            <h4 class="uk-margin-remove">Media Top</h4>
-            <p class="uk-margin-remove-top">
-              Lorem ipsum dolor sit amet.
-            </p>
-            <a class="uk-button uk-button-text" href="#modal-full" uk-toggle
-              >Read More</a
-            >
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="uk-card ">
-          <div class="uk-card-media-top">
-            <img src="https://via.placeholder.com/400x200/FF0000" alt="" />
-          </div>
-          <div>
-            <h4 class="uk-margin-remove">Media Top</h4>
-            <p class="uk-margin-remove-top">
-              Lorem ipsum dolor sit amet.
-            </p>
-            <a class="uk-button uk-button-text" href="#modal-full" uk-toggle
-              >Read More</a
-            >
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="uk-card ">
-          <div class="uk-card-media-top">
-            <img src="https://via.placeholder.com/400x200/FF0000" alt="" />
-          </div>
-          <div>
-            <h4 class="uk-margin-remove">Media Top</h4>
-            <p class="uk-margin-remove-top">
-              Lorem ipsum dolor sit amet.
-            </p>
+          <div class="uk-margin-small-top">
+            <h5 class="uk-margin-remove">{{ item.title }}</h5>
+            <small class="uk-margin-remove-top d-block uk-margin-bottom">
+              {{ item.shortDescription }}
+            </small>
             <a class="uk-button uk-button-text" href="#modal-full" uk-toggle
               >Read More</a
             >
@@ -90,12 +58,22 @@
 </template>
 
 <script>
+import { portfolio } from "../texts";
+
 export default {
   name: "Portfolio",
+  data() {
+    return {
+      portfolio,
+    };
+  },
 };
 </script>
 
 <style scoped lang="less">
+.d-block {
+  display: block;
+}
 .double-title-wrapper {
   position: relative;
   margin-bottom: 5px;
