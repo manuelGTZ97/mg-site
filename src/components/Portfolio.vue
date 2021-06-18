@@ -8,7 +8,7 @@
       <div v-for="item in portfolio" :key="item.id">
         <div class="uk-card ">
           <div class="uk-card-media-top">
-            <img :src="item.thumbnail" alt="" />
+            <img :src="require(`@/assets/${item.thumbnail}`)" alt="" uk-img />
           </div>
           <div class="uk-margin-small-top">
             <h5 class="uk-margin-remove">{{ item.title }}</h5>
