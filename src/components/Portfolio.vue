@@ -41,7 +41,10 @@
         >
           <div
             class="uk-background-cover"
-            style="background-image: url('images/photo.jpg');"
+            :style="{
+              backgroundImage:
+                'url(' + require('@/assets/marinavv-page.jpg') + ')',
+            }"
             uk-height-viewport
           ></div>
           <div class="uk-padding-large">
