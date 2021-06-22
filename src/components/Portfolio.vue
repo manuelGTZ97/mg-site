@@ -12,10 +12,15 @@
           </div>
           <div class="uk-margin-small-top">
             <h5 class="uk-margin-remove">{{ item.title }}</h5>
-            <small class="uk-margin-remove-top d-block uk-margin-bottom">
+            <small
+              class="uk-margin-remove-top d-block uk-margin-bottom uk-text-muted"
+            >
               {{ item.shortDescription }}
             </small>
-            <a class="uk-button uk-button-text" href="#modal-full" uk-toggle
+            <a
+              class="uk-button uk-button-link uk-text-emphasis"
+              href="#modal-full"
+              uk-toggle
               >Read More</a
             >
           </div>

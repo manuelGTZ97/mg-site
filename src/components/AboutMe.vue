@@ -14,7 +14,7 @@
           </p>
         </div>
       </div>
-      <div>
+      <div class="uk-flex uk-flex-center">
         <img
           class="water-image"
           data-src="https://via.placeholder.com/400/FF0000"
